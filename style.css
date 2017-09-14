@@ -1,0 +1,106 @@
+html {
+    min-height: 100%;
+    font-family: Lato;    
+}
+
+body {
+    background: #e0fff5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e0fff5, #80cbb2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e0fff5, #80cbb2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e0fff5, #80cbb2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e0fff5, #80cbb2); /* Standard syntax */
+    min-height: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 50px;
+
+    width: 50% ;
+    min-width: 300px;
+    
+
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.full-name {
+    font-size: 32pt;
+}
+
+.first-name {
+    font-weight: bold;
+    color: #325046;
+}
+
+.last-name {
+    font-weight: lighter;
+}
+
+.clear {
+    margin: 10px;
+}
+
+.contact-info {
+    margin-bottom: 35px;
+    font-size: 90%;
+}
+
+.contact-type {
+    color: #99afa8;   
+}
+
+.contact-val {
+    margin-right: 15px;
+    padding-right: 20px;
+    border-right: 1px solid #16222c;   
+}
+
+.contact-final {
+    border-right: 0px;
+}
+
+.section {
+    font-size: 100%;
+}
+
+.section__title {
+    color: #347f66;
+    font-weight: bold;  
+    font-size: 120%;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding-bottom: 30px;
+    padding-top: 0px;
+    vertical-align: top;
+}
+
+.left {
+    width: 60%;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.skill {
+    margin-bottom: 25px;
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
